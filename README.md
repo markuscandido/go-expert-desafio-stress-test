@@ -50,10 +50,10 @@ go build -o stress-test main.go
 
 ```bash
 # Build the Docker image
-docker build -t stress-test .
+docker build -t markuscandido/stress-test-go .
 
 # Run the test
-docker run stress-test --url=http://example.com --requests=1000 --concurrency=10
+docker run markuscandido/stress-test-go --url=http://example.com --requests=1000 --concurrency=10
 ```
 
 ## Example Output
