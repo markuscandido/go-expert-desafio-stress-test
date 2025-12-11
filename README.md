@@ -53,7 +53,7 @@ go build -o stress-test main.go
 docker build -t markuscandido/stress-test-go .
 
 # Run the test
-docker run markuscandido/stress-test-go --url=http://example.com --requests=1000 --concurrency=10
+docker run markuscandido/stress-test-go --url=https://www.google.com --requests=1000 --concurrency=50
 ```
 
 ## Example Output
